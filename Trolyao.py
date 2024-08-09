@@ -19,16 +19,14 @@ while True:
         you = ""
     print("you:" + you)
 
-    if "my" in you:
+    if "my girlfriend" in you:
         robot = "you don't have a girlfriend haha"
     elif "again" in you:
         robot = "ok repeat"
-    elif "yourself" in you:
+    elif "introduce yourself" in you:
         robot = "Hello user, i am Python Assistant made by Mr.Long, Happy new year 2023"
     elif "created" in you:
         robot = "Mr. Long created me"
-    elif "speak kimochi" in you:
-        robot = "kimochiiii"
     elif "hello" in you:
         robot = "hi?"
     elif "today" in you:
@@ -39,11 +37,11 @@ while True:
         robot = now.strftime("%H hours %M minutes %S seconds")
     elif "what is your name" in you:
         robot = "my name is nhatlong, what your name?"
-    elif "my name is thinh" in you:
+    elif "my name is long" in you:
         robot = "ok, nice to meet you"
-    elif" how are your" in you:
+    elif" how are you" in you:
         robot = "i am fine thank you and bye"
-
+    elif "goodbye" in you:
         break
     else:
         robot = "I don't understand, you can repeat"
